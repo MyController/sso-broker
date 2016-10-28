@@ -1,0 +1,39 @@
+{
+    "name": "mycontroller/sso-broker",
+    "description": "Simple SSO Broker for Laravel, Based on jasny/sso",
+    "keywords": ["sso", "broker", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MyController",
+            "email": "mycontroller@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/http": "5.1.*",
+        "illuminate/routing": "5.1.*",
+        "illuminate/session": "5.1.*",
+        "illuminate/support": "5.1.*",
+        "jasny/sso": "0.2.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9",
+        "phpunit/phpunit": "~4.0|~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyController\\SSOBroker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/mycontroller/sso-broker/issues",
+        "source": "https://github.com/mycontroller/sso-broker"
+    },
+    "minimum-stability" : "dev"
+}
